@@ -4,6 +4,7 @@ from discord.ext import commands
 import asyncio
 import time
 import os
+print ("hi bro")
 
 prefix = "n!"
 Client = discord.Client()
