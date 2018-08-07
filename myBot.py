@@ -33,7 +33,7 @@ async def on_message(message):
         embed=discord.Embed(title="**__Sparky's information:__**", color=0x42f4eb)
         embed.add_field(name="prefix: " + prefix , value="**__Commands:__**\n**Help** - commands list\n**say** - make me say something\n**servers** - in how many servers i am?\n**ping** - pong\n**pizza**\n**cookie**", inline=False)
         embed.set_footer(text="Sparky's creator: Nir11s")
-        embed.add_field(name="**--------------**", value="[invite me](https://discordapp.com/api/oauth2/authorize?client_id=460552217422856222&permissions=8&scope=bot)\n[Support server](https://discord.gg/Sk9pUny)")
+        embed.add_field(name="**▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬**", value="[invite me](https://discordapp.com/oauth2/authorize?&client_id=476459749139939358&scope=bot&permissions=8)\n[Support server](https://discord.gg/Sk9pUny)")
 
         await client.send_message(message.channel, embed=embed)
     #commands:
