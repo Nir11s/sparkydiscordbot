@@ -13,7 +13,7 @@ client = commands.Bot(command_prefix = "n!")
 @client.event
 async def on_ready():
     print("Bot is online!")
-    await client.change_presence(game=discord.Game(name=prefix+"help".format(len(client.servers))))
+    await client.change_presence(game=discord.Game(name=prefix+"help"))
     print (client.servers)
 
 @client.command()
